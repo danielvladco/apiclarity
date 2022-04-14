@@ -866,6 +866,9 @@ func init() {
           "description": "API name",
           "type": "string"
         },
+        "namespace": {
+          "type": "string"
+        },
         "port": {
           "type": "integer"
         }
@@ -2869,6 +2872,9 @@ func init() {
         },
         "name": {
           "description": "API name",
+          "type": "string"
+        },
+        "namespace": {
           "type": "string"
         },
         "port": {

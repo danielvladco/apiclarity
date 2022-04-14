@@ -29,6 +29,9 @@ type APIInfo struct {
 	// API name
 	Name string `json:"name,omitempty"`
 
+	// namespace
+	Namespace string `json:"namespace,omitempty"`
+
 	// port
 	Port int64 `json:"port,omitempty"`
 }

@@ -241,8 +241,9 @@ func (b *Backend) handleHTTPTrace(ctx context.Context, trace *pluginsmodels.Tele
 
 	// Initialize API info
 	apiInfo := _database.APIInfo{
-		Name: telemetry.Request.Host,
-		Port: int64(destPort),
+		Name:      telemetry.Request.Host,
+		Port:      int64(destPort),
+		Namespace: trace.DestinationNamespace,
 	}
 
 	// Set API Info type

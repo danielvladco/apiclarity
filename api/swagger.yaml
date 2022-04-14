@@ -91,6 +91,8 @@ definitions:
       hasProvidedSpec:
         type: 'boolean'
         default: false
+      namespace:
+        type: 'string'
 
   ApiInfoWithType:
     type: 'object'
